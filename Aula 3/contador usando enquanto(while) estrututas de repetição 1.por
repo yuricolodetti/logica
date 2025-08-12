@@ -1,28 +1,24 @@
 programa
-{
-	//Essa tive dificuldade em entender, então pedi ajuda ao chatgpt pra me explicar e fazer junto
+{							// enquanto = while
 	funcao inicio()
 	{
-		inteiro total_segundos, horas, minutos, segundos, resto
+		inteiro contador = 10
 
-		total_segundos = 3671
+		enquanto (contador > 0)
+		{
+			escreva("teste", contador, "\n")
+			contador--
+		}
 
-		horas = total_segundos / 3600
-		resto = total_segundos % 3600
-
-		minutos = resto / 60
-		segundos = resto % 60
-
-		escreva("Formato hora:minuto:segundo -> ", horas, ":", minutos, ":", segundos)
+		escreva("Fim do programa")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 410; 
+ * @POSICAO-CURSOR = 36; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,18 +1,16 @@
 programa
 {
+                  //"Teste de Mesa" enquano a nao for igual a 1 ele vai rodando o programa, e só para quando a for = a 1
+	
 	funcao inicio()
 	{
-		real distancia, combustivel, consumomedio
-
-		escreva("Digite a distancia percorrida em km: ")
-		leia(distancia)
-
-		escreva("Digite a quantidade de combustivel consumido em litros: ")
-		leia(combustivel)
-
-		consumomedio = distancia / combustivel
-
-		escreva("O consumo médio do carro é: ", consumomedio, " km/l")
+		inteiro a = 4, b = 0
+		enquanto(a > 1){
+			a = a - 1
+			b = b + a
+			escreva("Valor de a:", a, "\n")
+			escreva("Valor de b:", b, "\n")
+		}
 	}
 }
 
@@ -21,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 163; 
+ * @POSICAO-CURSOR = 131; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

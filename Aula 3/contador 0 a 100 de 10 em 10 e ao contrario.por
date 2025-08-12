@@ -1,28 +1,24 @@
 programa
 {
 	
-//2) Construir um algoritmo que leia um número e exiba na tela o seu sucessor e antecessor.
 	funcao inicio()
 	{
-		inteiro numero, antecessor, sucessor
+		inteiro contador
+			para(contador = 0; contador <= 100; contador +=10)
+				escreva(contador, "\n")
 
-	escreva("Digite seu número")
-	leia(numero)
-
-	antecessor = numero - 1
-	sucessor = numero + 1
-
-	escreva("O sucessor do seu número é:", sucessor, "\n")
-	escreva("O antecessor do seu número é:", antecessor)	
+				escreva("*********************\n")
+				
+			para(contador = 100; contador >= 0; contador -=10)
+				escreva(contador, "\n")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 313; 
+ * @POSICAO-CURSOR = 272; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
